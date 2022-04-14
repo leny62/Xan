@@ -809,10 +809,18 @@ nav ul,li,a{
  list-style-type: none;
  text-decoration: none;
  font-weight: 500;
- font-size: 15px;
+ font-size: 14px;
  color: #ffffff;
- cursor: pointer;    
+ cursor: pointer;  
+ 
+ //author: tresor
+ text-align: center;
+ width: 50%;
 }
+.navbar{
+    width: 100%;
+}
+
 
 nav .sign-up{
  background-color: #00CA99;
@@ -833,15 +841,12 @@ nav .login{
 }
 .toggle-div{
  position: absolute;
- right: .75rem;
- top: 20px;
 }
 .toggle-button{
  display: flex;
  flex-direction: column;
- gap: 5px;
 }
-.bar{
+/* .bar{
  width: 2.5rem;
  height: 1px;
  margin-right: 2rem;
@@ -869,7 +874,7 @@ nav .login{
     border: 1.5px solid #ffffff;
     background-color: #ffffff;
    
-   }
+   } */
 
     .navbar-links{
     display: none;
@@ -975,22 +980,19 @@ nav .login{
         align-items: center;
         padding: 1rem;
         background-color: #FAFAFA;
-        width: 114%;
+        //author: trezor
+        width: 100%;
     }
     footer img{
         margin-right: 1rem;
     }
     footer p{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.2px;
-        color: #737373;
+        //author: niyigena tresor
+        font-size: 32px;
     
     }
 
+    //author: NIYIGENA TRESOR
 }
 
 
